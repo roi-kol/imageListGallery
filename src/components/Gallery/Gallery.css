@@ -1,0 +1,61 @@
+ul.navbar-nav.ms-auto {
+    padding: 0;
+}
+button.p-button.p-component.p-splitbutton-defaultbutton {
+    background-color: transparent;
+    color: #0077CE;
+    border-color: #0077CE;
+    font-family: Heebo;
+    font-weight: Bold;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 15px 30px;
+}
+button.btn.btn-outline-primary.me-2.downloadBtn {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #0077CE;
+    border-color: #0077CE;
+    font-family: Heebo;
+    font-weight: Bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+button.p-button.p-component.p-splitbutton-menubutton.p-button-icon-only {
+    background-color: transparent;
+    color: #0077CE;
+    border-color: #0077CE;
+}
+.btns
+{
+    padding-right: 10px;
+}
+.warpSelectAll .p-checkbox.p-component
+{
+    position: relative;
+    margin: 0;
+}
+.p-field-checkbox.warpSelectAll {
+    padding: 15px 30px;
+}
+label.txtSelectAll {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+    align-items: center;
+    text-align: right;
+    padding: 0 5px;
+}
+
+.warpGalleryNav .p-button.p-component.p-highlight {
+    background: #0077CE;
+    border-color: #0077CE;
+}
+.imageList .p-checkbox-box.p-highlight,
+.tableList .p-checkbox-box.p-highlight,
+.warpGalleryNav .p-checkbox-box.p-highlight {
+    background-color: #0077CE !important;
+    border-color: #fff !important;
+}

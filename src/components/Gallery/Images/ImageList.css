@@ -1,0 +1,48 @@
+.imgItm figcaption {
+    text-align: right;
+}
+
+.imgItm figcaption a {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.imgDate {
+    text-align: left;
+}
+
+.imgInfo {
+    color: #0077CE;
+    float: right;
+}
+
+.imgCheck {
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.imgItm .p-checkbox.p-component {
+    position: absolute;
+    margin: 20px;
+}
+
+/* .p-checkbox .p-checkbox-box.p-highlight {
+    background-color: transparent;
+    border: 2px solid #fff;
+} */
+
+.wrapShare {
+    position: relative;
+    right: calc(-100% + 70px);
+}
+button.p-button.p-component.p-speeddial-button.p-button-rounded.p-button-outlined.p-button-icon-only {
+    color: #fff;
+    border: 0;
+}

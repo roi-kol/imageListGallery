@@ -1,0 +1,49 @@
+.filterBun.p-button ,.filterBun.p-button:enabled:hover, .filterBun.p-button:not(button):not(a):not(.filterBun.p-disabled):hover
+{
+    margin: 0 10px;
+    color: #000 !important;
+    background: #fff !important;
+    border-color: #0077CE !important;
+}
+button.p-button.p-component.filterBun.active
+{
+ 
+    color: #000 !important;
+    background: #0077CE !important;
+    border-color: #0077CE !important;
+}
+.fldStFilter
+{
+    direction: rtl;
+}
+.txtFilterForm
+{
+    font-family: Heebo;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-align: right;
+margin-top: 20px;;
+}
+.legendTxt
+{
+    padding: 15px 0 30px 0;
+}
+.calcRow .p-calendar-w-btn-right .p-datepicker-trigger {
+    background: #0077CE;
+    border-color: #0077CE;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.filterBtn
+{
+    min-width: 140px;
+    margin: 10px !important;
+}
+button.p-button.p-component.filterBtn.p-button-raised {
+    background: #0077CE !important;
+    border-color: #0077CE !important;
+}
