@@ -15,3 +15,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+![Image Gallery](https://raw.githubusercontent.com/roi-kol/imageListGallery/master/src/screenShot/ImageGallery.PNG)
+
+![Image Gallery](https://raw.githubusercontent.com/roi-kol/imageListGallery/master/src/screenShot/listView.PNG)
+
+![Date Filter](https://raw.githubusercontent.com/roi-kol/imageListGallery/master/src/screenShot/filter.PNG)
+
