@@ -1,0 +1,8 @@
+.imgTable
+{
+    max-height: 80px;;
+}
+.tblDesc
+{
+    text-overflow: ellipsis;
+}
