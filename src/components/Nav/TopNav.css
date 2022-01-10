@@ -1,0 +1,47 @@
+.btns {
+    padding-right: 10px;
+  }
+.speedDialBtn .p-button.p-button-icon-only.p-button-rounded{
+    border-radius: 8% !important;
+    padding: 23px 40px;
+}
+.speedDialBtn .p-speeddial {
+
+    left: 100px;
+    height: 50px;
+}
+.speedDialBtn .p-button.p-button-outlined {
+     color: #0077ce;
+}
+.filterBun.p-button ,.filterBun.p-button:enabled:hover, .filterBun.p-button:not(button):not(a):not(.filterBun.p-disabled):hover
+{
+    margin: 0 10px;
+    color: #000 !important;
+    background: #fff !important;
+    border-color: #0077CE !important;
+    max-height: 50px;
+}
+button.p-button.p-component.filterBun.active
+{
+ 
+    color: #000 !important;
+    background: #0077CE !important;
+    border-color: #0077CE !important;
+}
+@media screen and (max-width: 767px) {
+    .btns
+    {
+        padding-right: 5px;
+    }
+    .btns button.p-button.p-component.p-splitbutton-defaultbutton
+    {
+        padding: 15px;
+    }
+    .speedDialBtn .p-button.p-button-icon-only.p-button-rounded {
+        border-radius: 8% !important;
+        padding: 23px 15px;
+    }
+    .speedDialBtn .p-speeddial {
+        left: 55px;
+    }
+  }

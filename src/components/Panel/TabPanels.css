@@ -1,0 +1,26 @@
+
+.tabBadge {
+    position: absolute;
+    top: 38px;
+    color: #000 !important;
+    background-color: transparent !important;
+  }
+  .p-tabview-selected .tabBadge {
+    color: #0077CE !important;
+  }
+  .p-tabview-title {
+      color: #000;;
+  }
+  .p-tabview-selected .p-tabview-title {
+    color: #0077CE;;
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: linear-gradient(0deg, #f5f8fa, #f5f8fa), #f2f6fa;
+  border: 2px solid #0077ce;
+  color: #0077CE;
+}
+
+.p-tabview .p-tabview-nav li
+{
+    border: 2px solid #EBEEF0;
+}
