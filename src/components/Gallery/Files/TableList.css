@@ -1,8 +1,46 @@
-.imgTable
-{
-    max-height: 80px;;
-}
-.tblDesc
-{
+.imgTable {
+    max-height: 80px;
+  }
+  .tblDesc {
     text-overflow: ellipsis;
-}
+  }
+  .codeMobile {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #737980;
+  }
+  .imgDateMobile {
+    text-align: left;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+  }
+  .titleItmMobile {
+    text-align: right;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0077ce;
+  }
+  .textMobileDesc {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    text-align: right;
+  }
+  .checMobile {
+      text-align: left;
+  }

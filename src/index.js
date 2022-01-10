@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Gallery from './components/Gallery';
+import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+import 'font-awesome/css/font-awesome.css';
+import 'fontsource-heebo/index.css'
+// import Gallery from './components/Gallery';
 import reportWebVitals from './reportWebVitals';
-
+import TabPanels from './components/Panel'
 ReactDOM.render(
   <React.StrictMode>
-     <Gallery />
+    {/* <Gallery /> */}
+    <div dir='rtl'>
+      <TabPanels />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

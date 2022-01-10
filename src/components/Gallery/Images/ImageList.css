@@ -42,7 +42,23 @@
     position: relative;
     right: calc(-100% + 70px);
 }
-button.p-button.p-component.p-speeddial-button.p-button-rounded.p-button-outlined.p-button-icon-only {
+.imgItm button.p-button.p-component.p-speeddial-button.p-button-rounded.p-button-outlined.p-button-icon-only {
     color: #fff;
     border: 0;
+}
+
+.video {
+    position: relative;
+    top: 60px;
+    width: 1px;
+    height: 1px;
+    right: calc(-70% + 70px);
+}
+.playVideoBtn
+{
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.col.imgItm {
+    direction: ltr;
 }

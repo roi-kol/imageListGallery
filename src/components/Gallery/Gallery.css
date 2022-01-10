@@ -1,61 +1,78 @@
 ul.navbar-nav.ms-auto {
-    padding: 0;
+  padding: 0;
 }
 button.p-button.p-component.p-splitbutton-defaultbutton {
-    background-color: transparent;
-    color: #0077CE;
-    border-color: #0077CE;
-    font-family: Heebo;
-    font-weight: Bold;
-    font-size: 16px;
-    line-height: 21px;
-    padding: 15px 30px;
+  background-color: transparent;
+  color: #0077ce;
+  border-color: #0077ce;
+  font-family: Heebo;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 15px 30px;
 }
 button.btn.btn-outline-primary.me-2.downloadBtn {
-    padding: 15px 30px;
-    background-color: transparent;
-    color: #0077CE;
-    border-color: #0077CE;
-    font-family: Heebo;
-    font-weight: Bold;
-    font-size: 16px;
-    line-height: 21px;
+  padding: 15px 30px;
+  background-color: transparent;
+  color: #0077ce;
+  border-color: #0077ce;
+  font-family: Heebo;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 21px;
 }
+.downloadBtn i {
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .downloadBtn i {
+    margin-left: 0;
+  }
+}
+.shareBtn {
+  direction: ltr;
+}
+.shareBtn button.p-button.p-component.p-splitbutton-defaultbutton {
+  direction: rtl;
+}
+.selectViewMenu {
+  direction: ltr;
+}
+.shareBtn .fa-share-alt {
+  margin-left: 10px;
+}
+
 button.p-button.p-component.p-splitbutton-menubutton.p-button-icon-only {
-    background-color: transparent;
-    color: #0077CE;
-    border-color: #0077CE;
+  background-color: transparent;
+  color: #0077ce;
+  border-color: #0077ce;
 }
-.btns
-{
-    padding-right: 10px;
-}
-.warpSelectAll .p-checkbox.p-component
-{
-    position: relative;
-    margin: 0;
+
+.warpSelectAll .p-checkbox.p-component {
+  position: relative;
+  margin: 0;
 }
 .p-field-checkbox.warpSelectAll {
-    padding: 15px 30px;
+  padding: 15px 30px;
 }
 label.txtSelectAll {
-    font-family: Heebo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 130%;
-    align-items: center;
-    text-align: right;
-    padding: 0 5px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+  align-items: center;
+  text-align: right;
+  padding: 0 5px;
 }
 
 .warpGalleryNav .p-button.p-component.p-highlight {
-    background: #0077CE;
-    border-color: #0077CE;
+  background: #0077ce;
+  border-color: #0077ce;
 }
 .imageList .p-checkbox-box.p-highlight,
 .tableList .p-checkbox-box.p-highlight,
 .warpGalleryNav .p-checkbox-box.p-highlight {
-    background-color: #0077CE !important;
-    border-color: #fff !important;
+  background-color: #0077ce !important;
+  border-color: #fff !important;
 }
