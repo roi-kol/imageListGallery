@@ -6,7 +6,7 @@ It allows include filter for example. In this case it a date filter.
 It include tab panel to select the items (in the example on on tje code, there is two object - images and viedos )
 The components (pannel,button,calendar..) are import from primereact - [https://www.primefaces.org/primereact/](https://www.primefaces.org/primereact/).
 The responive are import from bootsrap 
-## Run the prohect
+## Run the proect
 
 In the project directory, you can run:
 
